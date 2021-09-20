@@ -1,0 +1,658 @@
+/* ------ Font connection ------ */
+
+@font-face {
+	font-family: 'Museo Sans 100';
+	src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+	font-family: 'Museo Sans 300';
+	src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+	font-family: 'Museo Sans 300 Italic';
+	src: url('../fonts/MuseoSansCyrl-300Italic.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/MuseoSansCyrl-300Italic.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-300Italic.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-300Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/MuseoSansCyrl-300Italic.svg#MuseoSansCyrl-300Italic') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+	font-family: 'Museo Sans 900';
+	src: url('../fonts/MuseoSansCyrl-900.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+	font-family: 'Stroke Gap Icons';
+	src: url('../fonts/Stroke-Gap-Icons.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Stroke-Gap-Icons.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Stroke-Gap-Icons.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Stroke-Gap-Icons.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Stroke-Gap-Icons.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Stroke-Gap-Icons.svg#Stroke-Gap-Icons') format('svg'); /* Legacy iOS */
+  }
+  
+  /* ------ Specification ------ */
+  
+  body {
+	  font-family: 'Museo Sans 300', sans-serif;
+	  font-size: 14px;
+	  letter-spacing: 0.12em;
+	  color: #22241b;
+	  padding: 0;
+	  margin: 0;
+  }
+  
+  .container {
+	  width: 940px;
+	  margin: 0 auto;
+  }
+  
+  div, p, form, input, a, span, button {
+	  box-sizing: border-box;
+  }
+  
+  p {
+	  margin: 0;
+	  font-size: 15px;
+	  letter-spacing: 0.02em;
+  }
+  
+  ul, li {
+	  display: block;
+	  padding: 0;
+	  margin: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	  padding: 0;
+	  margin: 0;
+	  text-transform: uppercase;
+  }
+  
+  h1, h2, h3 {
+	  font-family: 'Natasha', sans-serif;
+	  letter-spacing: 0.12em;
+  }
+  
+  h1 {
+	  font-size: 49px;
+	  line-height: 1.3em;
+  }
+  
+  h2 {
+	  font-size: 37px;
+  }
+  
+  h3 {
+	  font-size: 22px;
+	  opacity: 0.66;
+  }
+  
+  h4 {
+	  font-family: 'Museo Sans 900', sans-serif;
+	  font-size: 15px;
+	  opacity: 0.89;
+  }
+  
+  h5 {
+	  font-family: 'Museo Sans 100', sans-serif;
+	  font-size: 12px;
+	  letter-spacing: 0.02em;
+	  line-height: 1.5em;
+  }
+  
+  a, a:hover, a:active {
+	  text-decoration: none;
+  }
+  
+  a, button, input, .logo:after, .work__overlay {
+	  transition: all 0.5s ease;
+  }
+  
+  .d-flex {
+	  display: -webkit-flex;
+	  display: -moz-flex;
+	  display: -ms-flex;
+	  display: -o-flex;
+	  display: flex;
+  }
+  
+  .justify-content-between {
+	  justify-content: space-between;
+  }
+  
+  .align-items-center {
+	  align-items: center;
+  }
+  
+  a, input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
+	  outline: none;
+  }
+  
+  .merit__icon, .merit__content, .attainments__icon, .work__overlay {
+	  justify-content: center;
+  }
+  
+  .header, .header a, .arrow-down:active, .work__title, .work__overlay a {
+	  color: #fff;
+  }
+  
+  .merit__content, .communication a, .communication__icon, .attainments__icon {
+	  color: #204d15;
+  }
+  
+  .logo span, .offer__subtitle, .merit__content, .attainments__icon {
+	  font-family: 'Museo Sans 100', sans-serif;
+  }
+  
+  /* ------ First screen ------ */
+  
+  .header {
+	  background: #2f372e url(../img/first-bg.jpg) no-repeat center top / cover;
+	  padding-top: 51px;
+	  padding-bottom: 82px;
+	  text-align: center;
+	  text-transform: uppercase;
+  }
+  
+  .logo {
+	  font-size: 17px;
+	  font-family: 'Museo Sans 900', sans-serif;
+	  letter-spacing: 0.13em;
+	  position: relative;
+  }
+  
+  .logo:after {
+	  content: '';
+	  bottom: 0;
+	  right: 0;
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  background: #fff;
+	  transform: scaleX(0);
+  }
+  
+  .logo:hover:after {
+	  transform: scaleX(1);
+  }
+  
+  .logo:active {
+	  opacity: 0.2;
+  }
+  
+  .menu__items {
+	  width: 323px;
+  }
+  
+  .menu li:last-child {
+	  margin-right: 0;
+  }
+  
+  .menu__items a {
+	  font-size: 15px;
+	  font-family: 'Museo Sans 900', sans-serif;
+	  position: relative;
+  }
+  
+  .menu__items a:after {
+	  content: '';
+	  right: 0;
+	  position: absolute;
+	  width: 0%;
+	  height: 2px;
+	  background: #ab7931;
+	  box-shadow: 2px 5px 5px rgba(18, 19, 14, 0.9);
+	  transition: all 0.2s ease;
+	  display: block;
+	  margin-top: 2px;
+  }
+  
+  .menu__items a:hover:after {
+	  width: 100%;
+	  left: 0;
+  }
+  
+  .menu__items a:active:after {
+	  background: #800000;
+  }
+  
+  .mail {
+	  font-size: 13px;
+	  letter-spacing: 0.12em;
+	  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+	  text-transform: lowercase;
+	  line-height: 23px;
+  }
+  
+  .mail:hover {
+	  border-color: #4f4fee;
+  }
+  
+  .mail:active {
+	  opacity: 0.4;
+  }
+  
+  .offer {
+	  margin: 281px auto 257px;
+  }
+  
+  .offer__subtitle {
+	  font-size: 29px;
+	  letter-spacing: 0.12em;
+	  line-height: 1.3em;
+	  margin-top: 11px;
+  }
+  
+  .arrow-down {
+	  font-size: 18px;
+	  font-family: 'Arial', sans-serif;
+	  display: block;
+	  width: 40px;
+	  height: 40px;
+	  border: 1px solid #fff;
+	  border-radius: 50%;
+	  margin: 0 auto;
+	  line-height: 35px;
+	  letter-spacing: -1px;
+  }
+  
+  .arrow-down:hover {
+	  background: #fff;
+	  color: #292a1c;
+	  box-shadow: 2px 5px 5px rgba(18, 19, 14, 0.9);
+  }
+  
+  .arrow-down:active {
+	  border: 1px solid #fff;
+	  border-radius: 50%;
+	  background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* ------ About-me ------ */
+  
+  .about-me {
+	  padding-top: 83px;
+	  padding-bottom: 44px;
+  }
+  
+  .wrapper {
+	  margin-top: 71px;
+  }
+  
+  .background {
+	  width: 433px;
+  }
+  
+  .background__block {
+	  margin-top: 37px;
+  }
+  
+  .background__block p {
+	  margin-bottom: 1.8em;
+	  line-height: 1.8em;
+  }
+  
+  .background__block p:last-child {
+	  margin-bottom: 0;
+  }
+  
+  .merit {
+	  width: 468px;
+  }
+  
+  .merit__items {
+	  margin: 59px auto 0;
+	  width: 435px;
+  }
+  
+  .merit__item {
+	  text-align: center;
+	  width: 115px;
+  }
+  
+  .merit__icon {
+	  font-size: 20px;
+	  width: 73px;
+	  height: 73px;
+	  border: 1px solid #204d15;
+	  margin: 0 auto;
+	  transform: rotate(45deg);
+  }
+  
+  .merit__icon span {
+	  transform: rotate(-45deg);
+  }
+  
+  .merit__icon:after {
+	  content:'';
+	  display: block;
+	  position: absolute;
+	  width: 57px;
+	  height: 57px;
+	  border: 1px solid #c6d6bb;
+  }
+  
+  .merit__subtitle {
+	  margin-top: 37px;
+  }
+  
+  .wrap .communication {
+	  margin-top: 63px;
+  }
+  
+  .communication {
+	  width: 468px;
+  }
+  
+  .communication__block {
+	  margin-top: 33px;
+  }
+  
+  .communication__items li:last-child {
+	  margin-bottom: 0;
+  }
+  
+  .communication__item {
+	  margin-bottom: 18px;
+  }
+  
+  .communication a {
+	  border-bottom: 1px solid rgba(34, 36, 27, 0.29);
+	  padding-bottom: 3px;
+  }
+  
+  .communication a:hover {
+	  box-shadow: 2px 4px 5px rgba(18, 19, 14, 0.5);
+  }
+  
+  .communication a:active {
+	  box-shadow: 2px 4px 5px rgba(18, 19, 14, 0.1);
+  }
+  
+  .communication__appeal {
+	  width: 254px;
+  }
+  
+  .communication__icon {
+	  font-family: 'Stroke Gap Icons';
+	  font-size: 25px;
+	  padding: 19px 18px;
+	  margin-right: 18px;
+	  background: rgba(32, 77, 21, 0.08);
+	  border-radius: 50%;
+  }
+  
+  .communication__text {
+	  font-family: 'Museo Sans 300 Italic', sans-serif;
+	  font-size: 14px;
+	  letter-spacing: 0.02em;
+	  opacity: 0.72;
+  }
+  
+  /* ------ Skills ------ */
+  
+  .skills {
+	  padding-top: 44px;
+	  padding-bottom: 40px;
+  }
+  
+  .attainments__list {
+	  margin-top: 57px;
+	  max-width: 909px;
+  }
+  
+  .attainments__item {
+	  width: 205px;
+  }
+  
+  .attainments__icon {
+	  font-size: 13px;
+	  width: 61px;
+	  border: 1px solid #204d15;
+	  border-radius: 50%;
+	  height: 61px;
+	  margin-right: 26px;
+  }
+  
+  .attainments__icon:after {
+	  content:'';
+	  display: block;
+	  position: absolute;
+	  width: 47px;
+	  height: 47px;
+	  border: 1px solid #adb2ac;
+	  border-radius: 50%;
+  }
+  
+  /* ------ Activity ------ */
+  
+  .activity {
+	  padding-top: 40px;
+	  padding-bottom: 61.5px;
+  }
+  
+  .work__list {
+	  margin-top: 55px;
+  }
+  
+  .work__item {
+	  position: relative;
+	  width: 31.915%;
+  }
+  
+  .work__item:hover .work__overlay {
+	  opacity: 1;
+  }
+  
+  .work__img {
+	  display: block;
+	  max-width: 100%;
+  }
+  
+  .work__overlay {
+	  background: rgba(0,0,0,0.56);
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  opacity: 0;
+	  flex-direction: column;
+  }
+  
+  .work__title {
+	  letter-spacing: 0.02em;
+  }
+  
+  .work__overlay a {
+	  font-size: 13px;
+	  border-bottom: 1px solid rgba(255, 255, 255, 0.46);
+	  letter-spacing: 0.02em;
+	  margin-top: 8px;
+	  padding-bottom: 2px;
+	  position: relative;
+  }
+  
+  .work__overlay a:after {
+	  content: '';
+	  right: 0;
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  background: #ffff00;
+	  transition: all 0.2s ease;
+	  display: block;
+	  margin-top: 4px;
+	  transform: scaleX(0);
+  }
+  
+  .work__overlay a:hover:after {
+	  transform: scaleX(1);
+  }
+  
+  .work__overlay a:active {
+	  opacity: 0.5;
+  }
+  
+  /* ------ Footer ------ */
+  
+  .footer {
+	  padding-top: 61.5px;
+	  padding-bottom: 106px;
+  }
+  
+  .detail {
+	  font-size: 11px;
+	  opacity: 0.66;
+	  letter-spacing: 0.14em;
+	  text-transform: uppercase;
+  }
+  
+  
+  /* ------ Media queries ------ */
+  
+  /* 992px - 1200px */
+  @media screen and (max-width: 1200px) {
+	  
+  }
+  
+  /* 768px - 992px */
+  @media screen and (max-width: 992px) {
+	  .container {
+		  width: 720px;
+	  }
+	  h1, h2, h3, h5 {
+		  text-align: center;
+	  }
+	  .menu__items {
+		  width: 273px;
+	  }
+	  .wrapper {
+		  flex-direction: column;
+	  }
+	  .background {
+		  width: 100%;
+	  }
+	  .merit {
+		  margin-top: 63px;
+		  width: 100%;
+	  }
+	  .merit__items {
+		  width: 80%;
+	  }
+	  .communication {
+		  width: 100%;
+	  }
+	  .communication__block {
+		  justify-content: space-around;
+	  }
+	  .attainments__list {
+		  flex-wrap: wrap;
+		  justify-content: space-around;
+	  }
+	  .attainments__item {
+		  flex-basis: 38%;
+		  margin-bottom: 30px;
+	  }
+	  .attainments__list li:nth-child(n+3) {
+		  margin-bottom: 0;
+	  }
+	  .detail {
+		  text-align: center;
+	  }
+  }
+  
+  /* 576px - 768px */
+  @media screen and (max-width: 768px) {
+	  .container {
+		  width: 540px;
+	  }
+	  .menu {
+		  display: none;
+	  }
+	  .work__list {
+		  flex-direction: column;
+		  align-items: center;
+	  }
+	  .work__item {
+		  width: 100%;
+		  margin-bottom: 20px;
+		  max-width: 300px;
+	  }
+	  .work__list div:last-child {
+		  margin-bottom: 0;
+	  }
+  }
+  
+  /* 320px - 576px */
+  @media screen and (max-width: 576px) {
+	  .container {
+		  width: 90%;
+	  }
+	  .navigation {
+		  flex-direction: column;
+	  }
+	  .offer {
+		  margin: 171px auto 147px;
+	  }
+	  .merit__items {
+		  flex-direction: column;
+		  width: 100%;
+	  }
+	  .merit__item {
+		  width: 100%;
+		  margin-bottom: 50px;
+	  }
+	  .merit__subtitle br {
+		  display: none;
+	  }
+	  .merit__items li:last-child {
+		  margin-bottom: 0;
+	  }
+	  .communication__block {
+		  flex-direction: column;
+	  }
+	  .communication__items {
+		  text-align: center;
+	  }
+	  .communication__appeal {
+		  margin-top: 40px;
+	  }
+	  .attainments__list {
+		  flex-direction: column;
+		  align-items: center;
+	  }
+	  .attainments__list li:nth-child(3) {
+		  margin-bottom: 30px;
+	  }
+  }
